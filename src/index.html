@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="favicon.ico" type="image/icon" />
+  <title>Rs-lang</title>
+</head>
+
+<body class="body">
+  <div class="container">
+    <header class="header">
+      <a class="header__logo" href="#">
+        <span class="header__logo__text">RS LANG</span>
+      </a>
+
+      <div class="header__burger-menu">
+        <div class="header__burger">
+          <span class="header__burger__line"></span>
+        </div>
+      </div>
+      <div class="header__overlay"></div>
+
+      <div class="header__wrap-nav">
+        <nav class="nav">
+          <ul class="nav__list">
+            <li>
+              <button class="nav__list__book-btn nav__btn">Учебник</button>
+            </li>
+            <li>
+              <button class="nav__list__audio-call-btn nav__btn">Аудиовызов</button>
+            </li>
+            <li>
+              <button class="nav__list__sprint-btn nav__btn">Спринт</button>
+            </li>
+            <li>
+              <button class="nav__list__statistics-btn nav__btn">Статистика</button>
+            </li>
+          </ul>
+        </nav>
+
+        <ul class="entry-list">
+          <li>
+            <button class="entry-list__entry btn">Войти</button>
+          </li>
+          <li>
+            <button class="entry-list__registration btn">Регистрация</button>
+          </li>
+          <li>
+            <button class="entry-list__exit btn">Выйти</button>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <main class="main"></main>
+    <footer class="footer">
+      <a class="footer__rs" href="https://rs.school/js/"> </a>
+      <div class="footer__year">2022</div>
+      <a class="footer__git-hub" href="https://github.com/benitez881">benitez881</a>
+      <a class="footer__git-hub" href="https://github.com/DimaTeniuta">DimaTeniuta</a>
+      <a class="footer__git-hub" href="https://github.com/StanEkso">StanEkso</a>
+    </footer>
+
+    <div class="template__container">
+      <template id="main-page">
+        <section class="main-page">
+          <div class="rs-lang">
+            <h1 class="rs-lang__title">RS LANG - это...</h1>
+  
+            <ul class="rs-lang__description-list">
+              <li class="rs-lang__description-list__element">
+                <div class="rs-lang__description__image-level rs-lang__description__image"></div>
+                <div class="rs-lang__text">
+                  6 уровней сложности - от элементарного к продвинутому
+                </div>
+              </li>
+              <li class="rs-lang__description-list__element">
+                <div class="rs-lang__description__image-game rs-lang__description__image"></div>
+                <div class="rs-lang__text">
+                  Не только теоретические навыки, но и практика с помощью игр
+                </div>
+              </li>
+              <li class="rs-lang__description-list__element">
+                <div class="rs-lang__description__image-statistics rs-lang__description__image"></div>
+                <div class="rs-lang__text">
+                  Возможность просмотреть статистику вашего обучения - цифры не врут
+                </div>
+              </li>
+              <li class="rs-lang__description-list__element">
+                <div class="rs-lang__description__image-difficult-word rs-lang__description__image"></div>
+                <div class="rs-lang__text">
+                  Возможность отметить слово как сложное, чтобы вернуться к нему после
+                </div>
+              </li>
+            </ul>
+          </div>
+  
+          <div class="team">
+            <h2 class="team__title">НАША КОМАНДА</h2>
+            <div class="team__wrap-card">
+              <div class="team-card">
+                <div class="team__wrap-content-card">
+                  <div class="team__image team__image_one-developer"></div>
+                  <div class="team__wrap-name">
+                    <h3 class="team__name-developer">Павел</h3>
+                    <a class="team__git-hub" href="https://github.com/benitez881" target="_blank">@GitHub</a>
+                  </div>
+                </div>
+  
+                <div class="team__wrap-contribution">
+                  <div class="team__contribution">Team Lead</div>
+                  <div class="team__contribution">LocalStorage</div>
+                  <div class="team__contribution">Навигация по сайту</div>
+                  <div class="team__contribution">Спринт</div>
+                </div>
+              </div>
+  
+              <div class="team-card">
+                <div class="team__wrap-content-card">
+                  <div class="team__image team__image_two-developer"></div>
+                  <div class="team__wrap-name">
+                    <h3 class="team__name-developer">Дмитрий</h3>
+                    <a class="team__git-hub" href="https://github.com/DimaTeniuta" target="_blank">@GitHub</a>
+                  </div>
+                </div>
+  
+                <div class="team__wrap-contribution">
+                  <div class="team__contribution">Учебник</div>
+                  <div class="team__contribution">Бургер меню</div>
+                  <div class="team__contribution">Графики</div>
+                  <div class="team__contribution">Главная страница</div>
+                </div>
+              </div>
+  
+              <div class="team-card">
+                <div class="team__wrap-content-card">
+                  <div class="team__image team__image_three-developer"></div>
+                  <div class="team__wrap-name">
+                    <h3 class="team__name-developer">Станислав</h3>
+                    <a class="team__git-hub" href="https://github.com/StanEkso" target="_blank">@GitHub</a>
+                  </div>
+                </div>
+  
+                <div class="team__wrap-contribution">
+                  <div class="team__contribution">Статистика</div>
+                  <div class="team__contribution">Авторизация</div>
+                  <div class="team__contribution">Аудио вызов</div>
+                  <div class="team__contribution">Дизайн приложения</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </template>
+  
+      <template id="book-page">
+        <section class="book-page">
+          <div class="group-selector">
+            <ul class="selector-list">
+              <li>
+                <button class="selector-list__group-btn selector-list__group1" data-group="1">Группа 1</button>
+              </li>
+              <li>
+                <button class="selector-list__group-btn  selector-list__group2" data-group="2">Группа 2</button>
+              </li>
+              <li>
+                <button class="selector-list__group-btn  selector-list__group3" data-group="3">Группа 3</button>
+              </li>
+              <li>
+                <button class="selector-list__group-btn  selector-list__group4" data-group="4">Группа 4</button>
+              </li>
+              <li>
+                <button class="selector-list__group-btn  selector-list__group5" data-group="5">Группа 5</button>
+              </li>
+              <li>
+                <button class="selector-list__group-btn  selector-list__group6" data-group="6">Группа 6</button>
+              </li>
+              <li>
+                <button class="selector-list__group-btn selector-list__group7" data-group="7">Сложные</button>
+              </li>
+            </ul>
+  
+            <button class="book-page__up-btn scroll-btn not-active"></button>
+            <button class="book-page__down-btn scroll-btn"></button>
+          </div>
+  
+          <div class="book-page__wrap-card"></div>
+  
+          <div class="book__wrap-controls">
+            <div class="book-pagination__wrap">
+              <ul class="book-pagination__list">
+                <li><button class="book-pagination__start-btn pagination-btn" data-pagination="dbl-prev"></button></li>
+                <li><button class="book-pagination__prev-btn  pagination-btn" data-pagination="prev"></button></li>
+                <li>
+                  <div class="book-pagination__number-page">1</div>
+                </li>
+                <li><button class="book-pagination__next-btn  pagination-btn" data-pagination="next"></button></li>
+                <li><button class="book-pagination__finish-btn  pagination-btn" data-pagination="dbl-next"></button></li>
+              </ul>
+            </div>
+  
+            <div class="book-btn__wrap">
+              <button class="book-btn__sprint btn">Спринт</button>
+              <button class="book-btn__audio-call btn">Аудиовызов</button>
+            </div>
+          </div>
+  
+        </section>
+      </template>
+  
+      <template id="card">
+        <div class="book__card">
+          <div class="book__image"></div>
+          <audio class="book__audio-word book__audio"></audio>
+          <audio class="book__audio-meaning book__audio"></audio>
+          <audio class="book__audio-example book__audio"></audio>
+          <div class="book__wrap-content">
+            <div class="book__wrap-answer">
+              <div class="book__answer__wrap-values">
+                <span class="book__answer__right-value">0</span>
+                <span class="book__answer__wrong-value">0</span>
+              </div>
+              <div class="book__answer__line">
+                <span class="book__answer__line__percent"></span>
+              </div>
+            </div>
+            <div class="book__wrap-text">
+              <div class="book__word">
+                <span class="book__word__word"></span>
+                <span class="book__word__transcription"></span>
+                <span> - </span>
+                <span class="book__word__translate"></span>
+              </div>
+              <div class="book__word__example-first">
+                <p class="book__word__example-en-first"></p>
+                <p class="book__word__example-rus-first"></p>
+              </div>
+              <div class="book__word__example-second">
+                <p class="book__word__example-en-second"></p>
+                <p class="book__word__example-rus-second"></p>
+              </div>
+            </div>
+  
+            <ul class="book__wrap-btn">
+              <li>
+                <button class="book__btn-audio book__btn btn">
+                  <span class="book__btn-audio__img book__btn__img"></span>
+                  <span class="book__btn-audio__text book__btn__text">Послушать</span>
+                </button>
+              </li>
+              <li>
+                <button class="book__btn-explore book__btn btn">
+                  <span class="book__btn-explore__img book__btn__img"></span>
+                  <span class="book__btn-explore__text  book__btn__text">Изучить</span>
+                </button>
+              </li>
+              <li>
+                <button class="book__btn-difficult book__btn btn">
+                  <span class="book__btn-difficult__img book__btn__img"></span>
+                  <span class="book__btn-difficult__text  book__btn__text">Сложное</span>
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </template>
+  
+      <template id="login-page">
+        <section class="auth__view">
+          <div class="">
+            <h1 class="auth__view-title">
+              ВХОД В СИСТЕМУ
+            </h1>
+            <p class="auth__view-description">
+              Просматривайте уже изученное, отмечайте трудное
+            </p>
+          </div>
+          <form action="" class="auth__form">
+            <h3 class="auth__form-title">
+              ВХОД
+            </h3>
+            <div class="auth__form-errors"></div>
+            <input type="email" name="email" class="auth__form-field" placeholder="Электронная почта" autocomplete="email"
+              required>
+            <input type="password" name="password" class="auth__form-field" placeholder="Пароль (8 и более символов)"
+              autocomplete="current-password" required>
+            <button type="submit" class="auth__form-button btn">Войти</button>
+            <hr class="auth__form-divider">
+            <button type="button" class="auth__form-button-alt btn" data-redirect="register">Зарегистрироваться</button>
+          </form>
+        </section>
+      </template>
+  
+      <template id="register-page">
+        <section class="auth__view">
+          <div class="">
+            <h1 class="auth__view-title">
+              РЕГИСТРАЦИЯ В СИСТЕМЕ
+            </h1>
+            <p class="auth__view-description">
+              Просматривайте уже изученное, отмечайте трудное
+            </p>
+          </div>
+          <form action="" class="auth__form">
+            <h3 class="auth__form-title">РЕГИСТРАЦИЯ</h3>
+            <div class="auth__form-errors"></div>
+            <input type="text" name="name" class="auth__form-field" placeholder="Ваше имя" autocomplete="username"
+              required>
+            <input type="email" name="email" class="auth__form-field" placeholder="Электронная почта" autocomplete="email"
+              required>
+            <input type="password" name="password" class="auth__form-field" placeholder="Пароль (8 и более символов)"
+              autocomplete="current-password" required>
+            <button type="submit" class="auth__form-button btn">Зарегистрироваться</button>
+            <hr class="auth__form-divider">
+            <button type="button" class="auth__form-button-alt btn" data-redirect="login">Войти</button>
+          </form>
+        </section>
+      </template>
+  
+      <template id="sprint-page">
+        <div class="sprint__cente-container">
+          <div class="sprint__container">
+            <div class="sprint__title sprint__title-center">
+              СПРИНТ
+            </div>
+            <p class="sprint__description">
+              Суть игры заключается в проверке ваших знаний слов. Вам необходимо отвечать, правилен ли перевод
+              предложенного
+              слова в течении 60 секунд
+            </p>
+            <div class="sprint__title sprint__title-control">
+              Управление
+            </div>
+            <div class="sprint__description">
+              Можно управлять как нажатиями, так и с помощью клавиатуры
+            </div>
+            <div class="sprint__description-buttons">
+              <span class="sprint__button">
+                1
+              </span>
+              <div class="sprint__description">
+                Ответить “верно”
+              </div>
+            </div>
+            <div class="sprint__description-buttons">
+              <span class="sprint__button">
+                2
+              </span>
+              <div class="sprint__description">
+                Ответить “неверно”
+              </div>
+            </div>
+            <div class="sprint__difficulty-container">
+              <select name="" id="sprint__difficulty" class="sprint__difficulty">
+                <option value="1">Группа 1</option>
+                <option value="2">Группа 2</option>
+                <option value="3">Группа 3</option>
+                <option value="4">Группа 4</option>
+                <option value="5">Группа 5</option>
+                <option value="6">Группа 6</option>
+              </select>
+            </div>
+            <button class="btn sprint__start">Начать</button>
+          </div>
+        </div>
+      </template>
+  
+      <template id="sprint-game">
+        <div class="sprint__cente-container">
+          <div class="sprint__container">
+            <div class="sprint__header">
+              <div class="radial-timer">
+                <div class="radial-timer-half"></div>
+                <div class="radial-timer-half"></div>
+              </div>
+              <div class="sprint__title sprint__title-center sprint__score">
+                0
+              </div>
+              <div class="sprint__description sprint__score-per-word-container">
+                <span class="sprint__score-per-word">10</span> очков за слово
+              </div>
+              <div class="sprint__underline"></div>
+            </div>
+            <div class="word-en">
+            </div>
+            <div class="word-ru">
+            </div>
+            <div class="sprint__buttons">
+              <button class="btn sprint__btn sprint__btn-wrong">НЕВЕРНО</button>
+              <button class="btn sprint__btn sprint__btn-right">ВЕРНО</button>
+            </div>
+          </div>
+        </div>
+      </template>
+  
+      <template id="audio-preview">
+        <div class="audio-challenge">
+          <div class="audio-challenge__container">
+            <h3 class="audio-challenge__title">АУДИОВЫЗОВ</h3>
+            <p class="audio-challenge__description">
+              Суть игры заключается в тренировке восприятия английского языка. Вам предстоит прослушать 20 слов.
+            </p>
+            <h3 class="audio-challenge__sub-title">Управление</h3>
+            <ul class="audio-challenge__list">
+              <li class="audio-challenge__list-element">
+                <p class="audio-challenge__description">
+                  Можно управлять как нажатиями, так и с помощью клавиатуры
+                </p>
+              </li>
+              <li class="audio-challenge__list-element">
+                <div class="audio-challenge__button">1</div>
+                <span class="audio-challenge__description">...</span>
+                <div class="audio-challenge__button">5</div>
+                <p class="audio-challenge__description">
+                  Выбрать ответ
+                </p>
+              </li>
+              <li class="audio-challenge__list-element">
+                <div class="audio-challenge__button">Space</div>
+  
+                <p class="audio-challenge__description">
+                  Воспроизвести звук
+                </p>
+              </li>
+              <li class="audio-challenge__list-element">
+                <div class="audio-challenge__button">Enter</div>
+  
+                <p class="audio-challenge__description">
+                  Пропустить вопрос или продолжить
+                </p>
+              </li>
+            </ul>
+            <select class="audio-challenge__select">
+              <option value="1">Группа 1</option>
+              <option value="2">Группа 2</option>
+              <option value="3">Группа 3</option>
+              <option value="4">Группа 4</option>
+              <option value="5">Группа 5</option>
+              <option value="6">Группа 6</option>
+            </select>
+            <button class="btn audio-challenge__start-button audio-challenge__start-button-next">
+              Начать
+            </button>
+          </div>
+        </div>
+      </template>
+  
+      <template id="audio-game">
+        <div class="audio-challenge">
+          <div class="audio-challenge__container">
+            <p class="audio-challenge__container-result"></p>
+            <button class="btn audio-challenge__play-button" data-role="play"></button>
+            <audio src="" class="audio-challenge__audio" autoplay></audio>
+            <div class="audio-challenge__container-variants">
+              <button class="btn audio-challenge__select-variant" data-number="1" data-role="choice"></button>
+              <button class="btn audio-challenge__select-variant" data-number="2" data-role="choice"></button>
+              <button class="btn audio-challenge__select-variant" data-number="3" data-role="choice"></button>
+              <button class="btn audio-challenge__select-variant" data-number="4" data-role="choice"></button>
+              <button class="btn audio-challenge__select-variant" data-number="5" data-role="choice"></button>
+            </div>
+            <button class="btn audio-challenge__start-button" data-role="skip">
+              Пропустить
+            </button>
+          </div>
+        </div>
+      </template>
+  
+      <template id="sprint-results">
+        <div class="audio-challenge">
+          <div class="audio-challenge__container">
+            <h3 class="audio-challenge__title">РЕЗУЛЬТАТЫ</h3>
+            <h4 class="sprint-score-header">Очки: <span class="sprint-score"></span></h4>
+            <ul class="audio-challenge__results">
+  
+            </ul>
+            <div class="audio-challenge__button-group">
+  
+              <button class="btn audio-challenge__start-button" data-role="navigate-main">
+                На главную
+              </button>
+              <button class="btn audio-challenge__start-button" data-role="navigate-book">
+                Учебник
+              </button>
+            </div>
+          </div>
+        </div>
+      </template>
+  
+      <template id="audio-results">
+        <div class="audio-challenge">
+          <div class="audio-challenge__container">
+            <h3 class="audio-challenge__title">РЕЗУЛЬТАТЫ</h3>
+            <ul class="audio-challenge__results">
+  
+            </ul>
+            <div class="audio-challenge__button-group">
+  
+              <button class="btn audio-challenge__start-button" data-role="navigate-main">
+                На главную
+              </button>
+              <button class="btn audio-challenge__start-button" data-role="navigate-book">
+                Учебник
+              </button>
+            </div>
+          </div>
+        </div>
+      </template>
+  
+      <template id="audio-result-element">
+        <li class="audio-challenge__results-element">
+          <div class="audio-challenge__results-element-status"></div>
+          <span class="audio-challenge__results-element-word"></span>
+          <p class="audio-challenge__results-element-extra"></p>
+        </li>
+      </template>
+  
+      <template id="statistic-page">
+        <section class="statistics__container">
+          <h2 class="statistics__container-title">СТАТИСТИКА</h2>
+  
+          <article class="statistics__container-line statistics-words">
+            <p class="statistics__container-subtitle">Слова</p>
+            <div class="statistics__container-cards">
+              <div class="statistics__container-cards-element">
+                <p class="statistics__container-cards-element-description">
+                  Новых слов
+                </p>
+                <div class="statistics__container-cards-element-count statistics-words-new">
+                  0
+                </div>
+              </div>
+              <div class="statistics__container-cards-element">
+                <p class="statistics__container-cards-element-description">
+                  Правильных ответов
+                </p>
+                <div class="statistics__container-cards-element-count statistics-words-accuracy">
+                  0
+                </div>
+              </div>
+              <div class="statistics__container-cards-element">
+                <p class="statistics__container-cards-element-description">
+                  Изучено слов
+                </p>
+                <div class="statistics__container-cards-element-count statistics-words-learned">
+                  0
+                </div>
+              </div>
+            </div>
+          </article>
+  
+          <article class="statistics__container-line statistics-audioCall">
+            <p class="statistics__container-subtitle">Аудиовызов</p>
+            <div class="statistics__container-cards">
+              <div class="statistics__container-cards-element">
+                <p class="statistics__container-cards-element-description">
+                  Новых слов
+                </p>
+                <div class="statistics__container-cards-element-count statistics-words-new">
+                  0
+                </div>
+              </div>
+              <div class="statistics__container-cards-element">
+                <p class="statistics__container-cards-element-description">
+                  Правильных ответов
+                </p>
+                <div class="statistics__container-cards-element-count statistics-words-accuracy">
+                  0
+                </div>
+              </div>
+              <div class="statistics__container-cards-element">
+                <p class="statistics__container-cards-element-description">
+                  Максимальная серия
+                </p>
+                <div class="statistics__container-cards-element-count statistics-words-seria">
+                  0
+                </div>
+              </div>
+            </div>
+          </article>
+  
+          <article class="statistics__container-line statistics-sprint">
+            <p class="statistics__container-subtitle">Спринт</p>
+            <div class="statistics__container-cards">
+              <div class="statistics__container-cards-element">
+                <p class="statistics__container-cards-element-description">
+                  Новых слов
+                </p>
+                <div class="statistics__container-cards-element-count statistics-words-new">
+                  0
+                </div>
+              </div>
+              <div class="statistics__container-cards-element">
+                <p class="statistics__container-cards-element-description">
+                  Правильных ответов
+                </p>
+                <div class="statistics__container-cards-element-count statistics-words-accuracy">
+                  0
+                </div>
+              </div>
+              <div class="statistics__container-cards-element">
+                <p class="statistics__container-cards-element-description">
+                  Максимальная серия
+                </p>
+                <div class="statistics__container-cards-element-count statistics-words-seria">
+                  0
+                </div>
+              </div>
+            </div>
+          </article>
+  
+          <article class="container-chart">
+            <canvas id="chart"></canvas>
+            <canvas id="chart1"></canvas>
+          </article>
+        </section>
+      </template>
+  
+      <template id="statistics-modal-window">
+        <article class="statistics-modal__container">
+          <div class="statistics-modal__wrap">
+            <h3 class="statistics-modal__title">НУЖНА АВТОРИЗАЦИЯ</h3>
+            <p class="statistics-modal__text">
+              После авторизации вам будут доступны:
+            </p>
+            <ul class="statistics-modal__list">
+              <li>
+                <span class="statistics-modal__paragraph">Подробная статистика результатов обучения за день</span>
+              </li>
+              <li>
+                <span class="statistics-modal__paragraph">Графики отображающее прогресс обучения по дням</span>
+              </li>
+              <li>
+                <span class="statistics-modal__paragraph">Возможность добавлять слова в "изученные" или "сложные"</span>
+              </li>
+              <li>
+                <span class="statistics-modal__paragraph">
+                  Игры на страницах книги (запуская игру со страниц книги, вы будете изучать слова с текущей страницы)
+                </span>
+              </li>
+            </ul>
+          </div>
+        </article>
+      </template>
+  
+      <template id="loader">
+        <section class="loader">
+          <div class="loader__container">
+            <div class="loader__container-element">
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+            </div>
+            <div class="loader__container-description">Загружается</div>
+          </div>
+        </section>
+      </template>
+    </div>
+  </div>
+</body>
+
+</html>

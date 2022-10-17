@@ -1,0 +1,65 @@
+.statistics-modal__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 51px - 48px);
+  padding: 36px 16px;
+
+  .statistics-modal__wrap {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 411px;
+    padding: 16px;
+    color: $color-dark;
+    background-color: $color-box;
+    border: 1px solid $color-main;
+    border-radius: 2px;
+
+    .statistics-modal__title {
+      margin: 0 auto 32px auto;
+      font-size: 24px;
+      line-height: 29.26px;
+      font-weight: 400;
+    }
+
+    .statistics-modal__text {
+      margin: 0 0 16px 0;
+      font-size: 24px;
+      line-height: 29.26px;
+    }
+
+    .statistics-modal__list {
+      display: flex;
+      flex-direction: column;
+      row-gap: 14px;
+
+      .statistics-modal__paragraph {
+        font-size: 14px;
+        line-height: 17.07px;
+      }
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .statistics-modal__container {
+    .statistics-modal__wrap {
+
+      .statistics-modal__title {
+        font-size: 18px;
+      }
+  
+      .statistics-modal__text {
+        font-size: 18px;
+      }
+
+      .statistics-modal__list {
+        
+        .statistics-modal__paragraph {
+          font-size: 12px;
+        }
+      }
+    }
+  }
+}
