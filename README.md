@@ -1,6 +1,6 @@
 # RS Lang
 ___
-[RS-Lang](https://benitez881.github.io/rslang/) - this is an application for learning English. It was written as part of the [JS/FE Rolling Scopes School](https://rs.school/js/) course as a final task for three students.
+[RS-Lang](https://dimateniuta.github.io/RS-Lang/) - this is an application for learning English. It was written as part of the [JS/FE Rolling Scopes School](https://rs.school/js/) course as a final task for three students.
 ___
 ### Technologies used
 - [TypeScript](https://www.typescriptlang.org/) is a strongly typed programming language that builds on JavaScript, giving you better tooling at any scale.
